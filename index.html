@@ -8,42 +8,43 @@
   <title>Главная</title>
 
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="css/main.min.css?_v=20240608205152">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css?_v=20240608205152">
-  <script defer="defer" src="js/main.min.js?_v=20240608205152"></script>
+  <link rel="stylesheet" href="css/main.min.css?_v=20240627010622">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css?_v=20240627010622">
+  <script defer="defer" src="js/main.min.js?_v=20240627010622"></script>
 </head>
 
 <body>
     <header class="header" data-lp>
 	<div class="header__container">
 		<a href="#" class="header__logo logo">Energy Wind</a>
-		<nav class="header__menu menu">
-			<ul class="menu__list">
-				<li class="menu__item"><a href="#" class="menu__link">Каталог</a></li>
-				<li class="menu__item"><a href="../implemented.html" class="menu__link">Проекты</a></li>
-				<li class="menu__item"><a href="../about.html" class="menu__link">О компании</a></li>
-				<li class="menu__item"><a href="../contact.html" class="menu__link">Контакты</a></li>
-				<li class="menu__item"><a href="#" class="menu__link">Калькуляторы</a></li>
-			</ul>
-		</nav>
-		<div class="header__left">
-			<p class="header__time">
-				работаем <br>
-				с 9 до 19 по МСК
-			</p>
-			<a class="btn phon-btn" href="tel:+77777777">
-				<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<path d="M5.79701 0.865598C5.52632 0.211721 4.81268 -0.136311 4.13068 0.0500092L1.03706 0.893722C0.425372 1.06246 0 1.61791 0 2.25069C0 10.948 7.05203 18 15.7493 18C16.3821 18 16.9375 17.5746 17.1063 16.9629L17.95 13.8693C18.1363 13.1873 17.7883 12.4737 17.1344 12.203L13.7595 10.7968C13.1865 10.5578 12.5221 10.723 12.1319 11.2046L10.7116 12.9377C8.23675 11.7671 6.23293 9.76325 5.06228 7.28836L6.7954 5.87163C7.27702 5.4779 7.44225 4.81699 7.2032 4.24397L5.79701 0.869114V0.865598Z" fill="#F7F7F7"/>
+		<div class="header__wrapper">
+			<nav class="header__menu menu">
+				<ul class="menu__list">
+					<li class="menu__item"><a href="../catalog.html" class="menu__link">Каталог</a></li>
+					<li class="menu__item"><a href="../implemented.html" class="menu__link">Проекты</a></li>
+					<li class="menu__item"><a href="../about.html" class="menu__link">О компании</a></li>
+					<li class="menu__item"><a href="../contact.html" class="menu__link">Контакты</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">Калькуляторы</a></li>
+				</ul>
+			</nav>
+			<div class="header__left">
+				<p class="header__time">
+					работаем <br>
+					с 9 до 19 по МСК
+				</p>
+				<a class="btn phon-btn" href="tel:+77777777">
+					<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M5.79701 0.865598C5.52632 0.211721 4.81268 -0.136311 4.13068 0.0500092L1.03706 0.893722C0.425372 1.06246 0 1.61791 0 2.25069C0 10.948 7.05203 18 15.7493 18C16.3821 18 16.9375 17.5746 17.1063 16.9629L17.95 13.8693C18.1363 13.1873 17.7883 12.4737 17.1344 12.203L13.7595 10.7968C13.1865 10.5578 12.5221 10.723 12.1319 11.2046L10.7116 12.9377C8.23675 11.7671 6.23293 9.76325 5.06228 7.28836L6.7954 5.87163C7.27702 5.4779 7.44225 4.81699 7.2032 4.24397L5.79701 0.869114V0.865598Z" fill="#F7F7F7"/>
 					</svg>
-			</a>
-			<button class="btn header__btn">Оставить заявку</button>
+				</a>
+				<button class="btn header__btn">Оставить заявку</button>
+			</div>
 		</div>
 		<button class="header__burger icon-menu">
   <span></span>
 </button>
 	</div>
 </header>
-
     <main>
         <section class="home">
     <div class="home__container">
@@ -114,20 +115,22 @@
                 <div class="cacl__inputs">
                     <p class="calc__text">от</p>
                     <input class="calc__input" type="text">
+
                     <p class="calc__text">до</p>
                     <input class="calc__input" type="text">
+
                 </div>
             </div>
-
             <div class="calc__item">
                 <p class="calc__item-title">Параметры:</p>
                 <div class="cacl__inputs">
-                    <p class="calc__text">от</p>
-                    <input type="text">
-                    <p class="calc__text">до</p>
-                    <input type="text">
+                    <p class="calc__text">текст</p>
+                    <input class="calc__input" type="checkbox">
+                    <label class="calc__text">текст</label>
+                    <input class="calc__input" type="checkbox">
                 </div>
             </div>
+
 
             <div class="calc__item">
                 <p class="calc__item-title">Параметры:</p>
@@ -157,9 +160,9 @@
         <h2 class="title expert__title">ИБП, которым доверяют <br> эксперты EnergyWind</h2>
         <div class="expert__wrapper">
             <div class="expert__left">
-                <p class="expert__left-text active">Все</p>
+                <p class="expert__left-text">Все</p>
                 <div></div>
-                <p class="expert__left-text">Продукты</p>
+                <p class="expert__left-text noactive">Продукты</p>
             </div>
             <div class="expert__products">
                 <div class="expert__product__wrapper">
@@ -198,6 +201,134 @@
         </div>
     </div>
 </div>
+        <section class="why">
+    <div class="why__container">
+        <h2 class="title why__title">
+            Почему резервное питание <br>ИБП выгоднее чем генератор?
+        </h2>
+        <div class="why__items">
+            <div class="why__item-left">
+                <div class="why__item">
+                    <div class="why__item-main">
+                        <img src="../images/why-krest.svg" alt="">
+                        <p class="why__item-text">
+                            Расходы на топливо – 40.000р в месяц
+                        </p>
+                    </div>
+                    <img src="../images/why-line.svg" alt="">
+                </div>
+                <div class="why__item">
+                    <div class="why__item-main">
+                        <img src="../images/why-krest.svg" alt="">
+                        <p class="why__item-text">
+                            Подает напряжение после 3-х минут
+                        </p>
+                    </div>
+                    <img src="../images/why-line.svg" alt="">
+                </div>
+                <div class="why__item">
+                    <div class="why__item-main">
+                        <img src="../images/why-krest.svg" alt="">
+                        <p class="why__item-text">
+                            Дорогой и долгий ремонт установки
+                        </p>
+                    </div>
+                    <img src="../images/why-line.svg" alt="">
+                </div>
+                <div class="why__item">
+                    <div class="why__item-main">
+                        <img src="../images/why-krest.svg" alt="">
+                        <p class="why__item-text">
+                            Средняя стоимость составляет от 60.000₽
+                        </p>
+                    </div>
+                    <img src="../images/why-line.svg" alt="">
+                </div>
+                <div class="why__item">
+                    <div class="why__item-main">
+                        <img src="../images/why-krest.svg" alt="">
+                        <p class="why__item-text">
+                            Нужна вентиляция для выхлопа газа
+                        </p>
+                    </div>
+                    <img src="../images/why-line2.svg" alt="">
+                </div>
+                <div class="why__item">
+                    <div class="why__item-main">
+                        <img src="../images/why-krest.svg" alt="">
+                        <p class="why__item-text">
+                            Средняя громкость генератора – от 60 дБ
+                        </p>
+                    </div>
+                    <img src="../images/why-line2.svg" alt="">
+                </div>
+            </div>
+
+
+            <picture><source srcset="../images/why-bg.webp" type="image/webp"><img class="why__bg" src="../images/why-bg.png" alt=""></picture>
+
+
+            <div class="why__item-right">
+                <div class="why__item-right">
+                    <div class="why__item-main">
+                        <img src="../images/why-check.svg" alt="">
+                        <p class="why__item-text">
+                            Нет необходимости тратиться на топливо
+                        </p>
+                    </div>
+                    <img src="../images/why-line3.svg" alt="">
+                </div>
+                <div class="why__item-right">
+                    <div class="why__item-main">
+                        <img src="../images/why-check.svg" alt="">
+                        <p class="why__item-text">
+                            ИБП быстро и легко устанавливается
+                        </p>
+                    </div>
+                    <img src="../images/why-line3.svg" alt="">
+                </div>
+                <div class="why__item-right">
+                    <div class="why__item-main">
+                        <img src="../images/why-check.svg" alt="">
+                        <p class="why__item-text">
+                            Ремонт в 3 раза дешевле, чем у генератора
+                        </p>
+                    </div>
+                    <img src="../images/why-line3.svg" alt="">
+                </div>
+                <div class="why__item-right">
+                    <div class="why__item-main">
+                        <img src="../images/why-check.svg" alt="">
+                        <p class="why__item-text">
+                            Средняя стоимость составляет от 30.000₽
+                        </p>
+                    </div>
+                    <img src="../images/why-line3.svg" alt="">
+                </div>
+
+                <div class="why__item-right">
+                    <div class="why__item-main">
+                        <img src="../images/why-check.svg" alt="">
+                        <p class="why__item-text">
+                            Включается за долю секунды
+                        </p>
+                    </div>
+                    <img src="../images/why-line4.svg" alt="">
+                </div>
+
+                <div class="why__item-right">
+                    <div class="why__item-main">
+                        <img src="../images/why-check.svg" alt="">
+                        <p class="why__item-text">
+                            Средняя громкость бесперебойника до 50 дБ
+                        </p>
+                    </div>
+                    <img src="../images/why-line4.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
         <section class="steps">
     <div class="steps__container">
         <h2 class="title steps__title">ИБП на вашем <br> участке за 4 шага</h2>
@@ -298,8 +429,12 @@
                         для освещения или вентиляции</span>
                 </div>
             </div>
-            <div class="install-swiper-pagination"></div>
+            <div class="swiper__pagination">
+                <div class="in-swiper-pagination"></div>
+                <div id="numberSlides">
 
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -328,23 +463,40 @@
         <div class="rid__container">
 
             <div class="install__slider rid__slider">
-                <div class="install__slider-wrapper">
-                <div class="install__slide">
-                    <span class="install__slide-subtitle">ИБП, как и стабилизаторы, работают 24/7 улучшая выходные параметры городской сети. "Врезаясь" в  вашу линию питания, они диагностируют входную сеть каждую миллисекунду, отслеживая ее любые колебания по частоте, напряжению и току. Как только качество сети на входе ухудшилось по одному из данных параметров, ИБП мгновенно подхватывает нагрузку и начинает отдачу энергии от аккумуляторов, переходя в режим полной или частичной генерации зависит от типа ИБП. </span>
+                <div class="rid__slider-wrapper">
+                    <div class="install__slide rid__slide">
+                        <span class="install__slide-subtitle">ИБП, как и стабилизаторы, работают 24/7 улучшая выходные
+                            параметры городской сети. "Врезаясь" в вашу линию питания, они диагностируют входную сеть
+                            каждую миллисекунду, отслеживая ее любые колебания по частоте, напряжению и току. Как только
+                            качество сети на входе ухудшилось по одному из данных параметров, ИБП мгновенно подхватывает
+                            нагрузку и начинает отдачу энергии от аккумуляторов, переходя в режим полной или частичной
+                            генерации зависит от типа ИБП. </span>
+                    </div>
+                    <div class="install__slide rid__slide">
+                        <span class="install__slide-subtitle">Модели On-Line (технология двойного преобразования)
+                            позволяют свести время переключения к 0млс и держат на выходе ровные 220/230 Вольт в
+                            независимости от входа, что немало важно при запитывании очень чувствительного оборудования
+                            (медицинское оборудование, серверное оборудование и т.д.). </span>
+                    </div>
+                    <div class="install__slide rid__slide">
+                        <span class="install__slide-subtitle">Модели Line-Interactive имеют время переключения от 2-3 до
+                            10 млс, но позволяют аккумуляторам прослужить чуть дольше, так как пропускают городскую сеть
+                            в заданном диапазоне (например 180В-250В) без ее корректировки, а переход на АКБ производят
+                            только в случае действительно плохих характеристик входной сети. </span>
+                    </div>
+                    <div class="install__slide rid__slide">
+                        <span class="install__slide-subtitle">Наша команда поможет вам подобрать оптимальный вариант
+                            именно под ваши нужды!</span>
+                    </div>
                 </div>
-                <div class="install__slide">
-                    <span class="install__slide-subtitle">Модели On-Line (технология двойного преобразования) позволяют свести время переключения к 0млс и держат на выходе ровные 220/230 Вольт в независимости от входа, что немало важно при запитывании очень чувствительного оборудования (медицинское оборудование, серверное оборудование и т.д.). </span>
-                </div>
-                <div class="install__slide">
-                    <span class="install__slide-subtitle">Модели  Line-Interactive имеют время переключения от 2-3 до 10 млс, но позволяют аккумуляторам прослужить чуть дольше, так как пропускают городскую сеть в заданном диапазоне (например 180В-250В) без ее корректировки, а переход на АКБ производят только в случае действительно плохих характеристик входной сети. </span>
-                </div>
-                <div class="install__slide">
-                    <span class="install__slide-subtitle">Наша команда поможет вам подобрать оптимальный вариант именно под ваши нужды!</span>
+                <div class="swiper__pagination">
+                    <div class="rid-swiper-pagination"></div>
+                    <div id="numberSlidesRid">
+
+                    </div>
                 </div>
             </div>
-            <div class="install-swiper-pagination"></div>    
         </div>
-    </div>
     </div>
 
 </section>
@@ -438,37 +590,42 @@
             <picture><source srcset="../images/ph1.webp" type="image/webp"><img src="../images/ph1.png" alt=""></picture>
         </div>
         <div class="philosophy__slider">
-            <div class="install__slider philosophy__slider">
-                <div class="install__slider-wrapper">
-                    <div class="install__slide">
+            <div class="install__slider ph__slider">
+                <div class="ph__slider-wrapper">
+                    <div class="install__slide ph__slide">
                         <p class="install__slide-title">Философия EnergyWind</p>
-                        <span class="install__slide-subtitle philosophy__subtitle">Наша миссия: содействовать процветанию и комфорту клиентов, обеспечивая бесперебойное электроснабжение важных объектов.
+                        <span class="install__slide-subtitle philosophy__subtitle">Наша миссия: содействовать
+                            процветанию и комфорту клиентов, обеспечивая бесперебойное электроснабжение важных объектов.
                             <br>
                             <br>
                             Наша цель: профессиональное и комплексное решение поставленной заказчиком задачи.
-                            
-                            Наш коллектив: это увлеченные специалисты, которые постоянно повышают свою квалификацию, проявляя профессиональную любознательность.</span>
+<br>
+<br>
+                            Наш коллектив: это увлеченные специалисты, которые постоянно повышают свою квалификацию,
+                            проявляя профессиональную любознательность.</span>
                     </div>
-                    <div class="install__slide">
+                    <div class="install__slide ph__slide">
                         <p class="install__slide-title">Наши компетенции</p>
-                        <span class="install__slide-subtitle philosophy__subtitle">розничные и оптовые поставки продукции
+                        <span class="install__slide-subtitle philosophy__subtitle">розничные и оптовые поставки
+                            продукции
                             из нашего ассортимента
-                            
+
                             Монтаж систем бесперебойного питания "Под ключ"
-                            
+
                             Диагностика и замена аккумуляторов в ИБП
-                            
+
                             Организация бесперебойного питания частных домов</span>
                     </div>
-                    <div class="install__slide">
+                    <div class="install__slide ph__slide">
                         <p class="install__slide-title">Наши преимущества</p>
-                        <span class="install__slide-subtitle philosophy__subtitle">Мы предоставляем комплексные решения по ИБП как для бизнеса, так и частного сектора
+                        <span class="install__slide-subtitle philosophy__subtitle">Мы предоставляем комплексные решения
+                            по ИБП как для бизнеса, так и частного сектора
 
-                            Оперативность и точность в организации логистики и монтажных работ 
-                            
+                            Оперативность и точность в организации логистики и монтажных работ
+
                             Партнерский подход к нашим клиентам</span>
                     </div>
-                    <div class="install__slide">
+                    <div class="install__slide ph__slide">
                         <p class="install__slide-title">Установите надежное
                             аварийное питание</p>
                         <span class="install__slide-subtitle philosophy__subtitle">ИБП включается за пару секунд
@@ -476,7 +633,12 @@
                             для освещения или вентиляции</span>
                     </div>
                 </div>
-                <div class="install-swiper-pagination"></div>
+                <div class="swiper__pagination">
+                    <div class="ph-swiper-pagination"></div>
+                    <div id="numberSlidesPh">
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -551,7 +713,7 @@
     </div>
   </div>
 </footer>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?_v=20240608205152"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?_v=20240627010622"></script>
 
 
 </body>
